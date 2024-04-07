@@ -2,7 +2,7 @@
     "description": "Screenshare your n.eko, MovieNight, Owncast, Restreamer, WebBrowser, rtmp, or WebRTC streams directly to Discord without needing to use the same PC and tie up resources!",
     "docker_registry": "https://index.docker.io/v1/",
     "name": "f00d4tehg0dz/kasm-discord-screenshare:latest",
-    "image_src": "f00d4tehg0dz/discord-screenshare.png",
+    "image_src": "discord-screenshare.png",
     "cores": 4,
     "memory": 4768,
     "gpu_count": 0,
