@@ -12,7 +12,8 @@
         "Games"
     ],
     "run_config": {
-      "hostname": "kasm"
+      "hostname": "kasm",
+      "privileged" : true
     },
     "exec_config": {
       "go": {
@@ -30,5 +31,5 @@
     "compatibility": [
       "1.15.x"
     ],
-    "uncompressed_size_mb": 8170
+    "uncompressed_size_mb": 8100
   }
