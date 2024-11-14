@@ -28,8 +28,17 @@
       "amd64",
       "arm64"
     ],
-    "compatibility": [
-      "1.16.x"
-    ],
+     "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "f00d4tehg0dz/kasm-discord-screenshare:latest",
+      "uncompressed_size_mb": 8100,
+      "available_tags": [
+        "develop",
+        "1.16.0",
+        "latest",
+      ]
+    }
+  ]
     "uncompressed_size_mb": 8100
   }
