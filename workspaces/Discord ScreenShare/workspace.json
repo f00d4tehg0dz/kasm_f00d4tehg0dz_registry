@@ -28,7 +28,8 @@
       "amd64",
       "arm64"
     ],
-     "compatibility": [
-        "1.16.x"
-  ],
-}
+    "compatibility": [
+      "1.16.x"
+    ],
+    "uncompressed_size_mb": 8100
+  }
