@@ -32,7 +32,7 @@
     {
       "version": "1.16.x",
       "image": "f00d4tehg0dz/kasm-discord-screenshare:latest",
-      "uncompressed_size_mb": 8100,
+      "uncompressed_size_mb": 8200,
       "available_tags": [
         "develop",
         "1.16.0",
@@ -40,5 +40,4 @@
       ]
     }
   ],
-    "uncompressed_size_mb": 8100
   }
