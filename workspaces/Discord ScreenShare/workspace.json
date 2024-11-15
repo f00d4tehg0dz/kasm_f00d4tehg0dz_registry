@@ -1,26 +1,11 @@
 {
-  "friendly_name": "Discord Screen Share Audio",
-  "image_src": "blob:https://f00d4tehg0dz.github.io/e6b170db-82cc-44de-a9f7-4250ef22bc2b",
   "description": "Screenshare your streams directly to Discord without needing to use the same PC and tie up resources",
-  "name": "f00d4tehg0dz/kasm-discord-screenshare:latest",
-  "cores": 4,
-  "memory": 4768,
-  "gpu_count": 0,
-  "cpu_allocation_method": "Inherit",
   "docker_registry": "https://index.docker.io/v1/",
-  "categories": [
-    "Multimedia"
-  ],
+  "image_src": "discord-screenshare.png",
+  "name": "f00d4tehg0dz/kasm-discord-screenshare:latest",
   "run_config": {
-    "hostname": "kasm",
-    "privileged" : true
+    "hostname": "kasm"
   },
-  "require_gpu": false,
-  "enabled": true,
-  "image_type": "Container",
-  "architecture": [
-    "amd64"
-  ],
   "exec_config": {
     "go": {
       "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
@@ -28,5 +13,20 @@
     "assign": {
       "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
     }
-  }
+  },
+  "categories": [
+    "Multimedia"
+  ],
+  "friendly_name": "Discord Screen Share Audio",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.13.x",
+    "1.14.x",
+    "1.15.x",
+    "1.16.x"
+  ],
+  "uncompressed_size_mb": 2170
 }
